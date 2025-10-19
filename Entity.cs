@@ -5,7 +5,7 @@ class Entity(string name)
   private int _attack;
   private int _mana;
   private int _health;
-  public string EntityName { get; set; } = name;
+  public required string EntityName { get; set; } = name;
   public int EntityHealth { get => _health; set => _health = value;}
   public int EntityMana{ get => _mana; set => _mana = value; }
   public virtual string DisplayName() => EntityName;

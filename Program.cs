@@ -2,11 +2,11 @@
 
 class Program
 {
-   private static void Main()
-   {
-     var player = new Player("Vandal");
-     Console.WriteLine(player.Attack(20));
-   }
+  private static void Main()
+  {
+    UI gameUI = new();
+    gameUI.ShowUI();
+  }
 }
 
 
