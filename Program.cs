@@ -5,7 +5,7 @@ class Program
    private static void Main()
    {
      var player = new Player("Vandal");
-     Console.WriteLine(player.DisplayName());
+     Console.WriteLine(player.Attack(20));
    }
 }
 
